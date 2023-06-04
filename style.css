@@ -6,6 +6,9 @@
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
 }
+img{
+  object-fit: cover;
+}
 .wrapper{
   background-color: #fff;
   max-width: 450px;
@@ -383,6 +386,7 @@
   height: 35px;
   width: 35px;
   border-radius: 50%;
+  object-fit: cover;
 }
 .chat-box .incoming .details{
   margin-right: auto;
